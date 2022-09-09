@@ -794,6 +794,7 @@ button:focus {
    ========================================================================== */
 #app-features {
   background: #f6fbfd;
+  margin-top: 10px;
 }
 
 #app-features .content-left {
