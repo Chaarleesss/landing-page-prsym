@@ -366,7 +366,7 @@ button:focus {
 .social-icons ul li a:hover {
   color: #fff;
 }
-.instagram:hover {
+.instagram a:hover {
   background: #4867aa;
 }
 
@@ -374,7 +374,7 @@ button:focus {
   color: #4867aa;
 }
 
-.facebook a:hover {
+.fac a:hover {
   background: #4867aa;
 }
 
@@ -700,7 +700,7 @@ button:focus {
 .hero-area-2 .overlay {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 90%;
   top: 0px;
   left: 0px;
   background-image: -moz-linear-gradient(0deg, #7fbcd2 0%, #2cc7ff 100%);
@@ -739,11 +739,12 @@ button:focus {
 
 .hero-area-2 .intro-img {
   padding: 180px 0 0px;
+  margin-bottom: 40%;
+  margin-left: 30%;
 }
 
-.hero-area-2 .intro-img img {
+.hero-area-2 .intro-img svg {
   display: block;
-  height: auto;
   max-width: 100%;
 }
 
@@ -963,9 +964,9 @@ button:focus {
 
 .single-team .social-list {
   position: absolute;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #7fbcd2 0%, #2cc7ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #7fbcd2 0%, #2cc7ff 100%);
+  background-image: -ms-linear-gradient(0deg, #7fbcd2 0%, #2cc7ff 100%);
   border-top-right-radius: 30px;
   bottom: 0;
   left: -40px;
@@ -988,6 +989,10 @@ button:focus {
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
+.single-team .social-list .instagram a:hover {
+  background: #4867aa;
+  color: #fff;
+}
 
 .single-team .social-list .facebook a:hover {
   background: #4867aa;
@@ -996,16 +1001,6 @@ button:focus {
 
 .single-team .social-list .twitter a:hover {
   background: #1da1f2;
-  color: #fff;
-}
-
-.single-team .social-list .google-plus a:hover {
-  background: #dd4d42;
-  color: #fff;
-}
-
-.single-team .social-list .linkedin a:hover {
-  background: #007bb6;
   color: #fff;
 }
 
@@ -1443,7 +1438,8 @@ footer .menu li a:hover {
 }
 
 .copyright p {
-  margin-bottom: 0;
+  text-align: center;
+  margin: auto;
   color: #fff;
 }
 
